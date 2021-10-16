@@ -1,0 +1,57 @@
+.containerApresentation{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+}
+
+.textApresentation{
+    width: 50%;
+}
+
+.textApresentation h2{
+    font-size: 60px;
+    color: var(--letraLaranja);
+    margin-top: 15%;
+    margin-left: 10%;
+}
+
+.textApresentation p{
+    color: #7C7C7C;
+    margin-left: 10%;
+    margin-top: 2%;
+    width: 80%;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 45px;
+}
+
+.textApresentation button{
+    width: 200px;
+    height: 60px;
+    font-size: 30px;
+    color: var(--letraLaranja);
+    background-color: #FDE5CA;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 7%;
+    margin-left: 10%;
+    cursor: pointer;
+}
+
+.textApresentation button:hover{
+    background-color: var(--letraLaranja);
+    color: #FDE5CA;
+}
+
+.imgApresentation{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.imgApresentation img{
+    width: 60%;
+    height: auto;
+    margin-top: 10%;
+}

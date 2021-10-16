@@ -1,10 +1,15 @@
 import React from 'react'
+import './styles.css';
 import Header from '../../components/header';
+import Apresentation from '../../components/apresentation';
 
 const Home = () => {
     return (
         <>
-            <Header />
+            <div className="containerHome">
+                <Header />
+                <Apresentation />
+            </div>
         </>
     );
 }
