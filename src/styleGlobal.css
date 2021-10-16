@@ -1,0 +1,17 @@
+:root{
+    --laranja: #F97D26;
+    --letraLaranja: #F8982C;
+    --verde: #2BBC5D;
+    --azul: #5398E9;
+    --roxo: #BE49E8;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', Arial, sans-serif;
+}
