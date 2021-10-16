@@ -1,0 +1,65 @@
+.containerAgency{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerAgency h1{
+    color: var(--letraLaranja);
+    margin: 4% 0;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.containerGrid{
+    width: 90%;
+    height: auto;
+}
+
+.containerGrid{
+    display: flex;
+    justify-content: space-between;
+}
+
+.containerGrid .gridAgency{    
+    width: 30%;
+    height: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.purple{
+    border: 1px solid var(--roxo);
+    color: var(--roxo);
+}
+
+.blue{
+    border: 1px solid var(--azul);
+    color: var(--azul);
+}
+
+.green{
+    border: 1px solid var(--verde);
+    color: var(--verde);
+}
+
+.titleIcon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titleIcon h2{
+    font-weight: 300;
+}
+
+.descriptionAgency{
+    color: #ccc;
+    font-size: 22px;
+    margin-bottom: 20%;
+}

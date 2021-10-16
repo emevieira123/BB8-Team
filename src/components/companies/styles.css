@@ -1,0 +1,25 @@
+.containerCompanies {
+    width: 100%;
+    height: auto;
+    background-color: rgba(232, 232, 232, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerCompanies h2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    color: #515151;
+}
+
+.containerCompanies p{
+    font-weight: 300;    
+    font-size: 20px;
+    line-height: 27px;
+    color: #515151;
+}
