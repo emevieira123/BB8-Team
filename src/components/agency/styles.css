@@ -16,9 +16,6 @@
 .containerGrid{
     width: 90%;
     height: auto;
-}
-
-.containerGrid{
     display: flex;
     justify-content: space-between;
 }
@@ -62,4 +59,20 @@
     color: #ccc;
     font-size: 22px;
     margin-bottom: 20%;
+}
+
+@media(max-width: 720px) {
+    .containerAgency h1{
+        /* margin: 4% 0; */
+        font-size: 40px;
+        /* font-weight: 400; */
+    }
+    .containerGrid{
+        flex-direction: column;
+        align-items: center;
+    }
+    .containerGrid .gridAgency{
+        width: 80%;
+        margin-bottom: 20px;
+    }
 }

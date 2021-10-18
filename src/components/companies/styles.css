@@ -23,3 +23,17 @@
     line-height: 27px;
     color: #515151;
 }
+
+@media(max-width:720px){
+    .containerCompanies h2{
+        font-size: 34px;
+        color: var(--letraLaranja);
+    }
+    .containerCompanies p{
+        font-weight: 300;    
+        font-size: 14px;        
+    }
+    .containerCompanies img{
+        width: 100%;
+    }
+}

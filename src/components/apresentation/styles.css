@@ -7,6 +7,7 @@
 
 .textApresentation{
     width: 50%;
+    margin-bottom: 100px;
 }
 
 .textApresentation h2{
@@ -48,10 +49,37 @@
     width: 50%;
     display: flex;
     justify-content: center;
+    margin-bottom: 100px;
 }
 
 .imgApresentation img{
     width: 60%;
     height: auto;
-    margin-top: 10%;
+    margin-top: 5%;
+}
+
+@media(max-width: 720px){
+    .textApresentation h2{
+        font-size: 40px;
+        margin-left: 15%; 
+    }
+    .textApresentation p{
+        color: #7C7C7C;
+        margin-left: 15%;
+        width: 120%;
+        font-size: 20px;
+       
+    }
+
+    .imgApresentation{        
+        width: 0;
+        /* border: 1px solid red; */
+    }
+    .imgApresentation img{
+        display: none;        
+    }
+
+    .textApresentation button{
+        margin-left: 50%;
+    }
 }

@@ -1,0 +1,112 @@
+.containerFotter{
+    width: 100%;
+    background-color: var(--letraLaranja);
+    display: flex;
+    margin-top: 10%;
+}
+
+.containerFotter div{
+    width: 100%;
+    height: auto;
+}
+
+.footerLinks{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+    color: white;
+}
+
+.footerLinks span{
+    font-weight: 300;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.footerLinks a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 7px;
+    font-size: 18px;
+}
+
+.footerLogo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footerLogo img{
+    width: 50%;
+    height: auto;
+    opacity: 0.5;
+}
+
+.footerLogo span{
+    color: white;
+}
+
+.footterAdress{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 20px;
+    /* justify-content: center; */
+}
+
+.footterAdress h1{
+    margin-right: 18%;
+    margin-bottom: 6%;
+    font-size: 25px;
+}
+
+.icon{
+    margin-right: 10px;
+}
+
+.adress{
+    margin-top: -18px;
+    margin-right: 20%;
+}
+
+@media(max-width: 720px){
+    .footerLogo img{
+        width: 70%;
+        position: absolute;
+        margin-top: -44px;
+        opacity: 0.1;
+    }
+
+    .footerLogo span{
+        position: absolute;
+        margin-bottom: 0;
+        flex-direction: reverse;
+        margin-top: 47%;
+    }
+    .footerLinks h1{
+        position: absolute;
+        font-size: 24px;
+        margin-left: 35%;
+        
+    }
+    .footerLinks span{
+        font-size: 20px;
+        margin-top: 30px;
+        position: absolute;
+        margin-left: 31%;
+    }
+    .icon{
+        display: none;
+    }
+    .footterAdress h1{
+        font-size: 16px;
+    }
+
+    .adress{
+        font-size: 14px;
+        margin-top: -18px;
+        margin-right: 29%;
+        margin-bottom: 60%;
+    }
+}
