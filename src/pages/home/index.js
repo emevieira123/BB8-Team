@@ -1,5 +1,5 @@
 import React from 'react'
-import './styles.css';
+import './styles.scss';
 import Header from '../../components/header';
 import Apresentation from '../../components/apresentation';
 import Companies from '../../components/companies';

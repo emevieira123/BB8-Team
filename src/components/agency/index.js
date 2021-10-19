@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles.css';
+import './styles.scss';
 import iconPurple from '../../assets/iconPurple.svg';
 import iconBlue from '../../assets/iconBlue.svg';
 import iconGreen from '../../assets/iconGreen.svg';

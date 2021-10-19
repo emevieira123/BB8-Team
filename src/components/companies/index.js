@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles.css';
+import './styles.scss';
 import imgCompanies from '../../assets/Companies.svg';
 
 const Companies = () => {

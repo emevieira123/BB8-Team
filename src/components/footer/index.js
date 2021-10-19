@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles.css';
+import './styles.scss';
 
 import { FaRegBuilding } from 'react-icons/fa';
 import { FiPhone } from 'react-icons/fi';
@@ -23,14 +23,15 @@ const Fotter = () => {
             </div>
             <div className="footterAdress">
                 <h1>Get in touch</h1>
-                {/* <span> <FiPhone /> 209-296-5917</span> */}
                 <span> <FiPhone className="icon" /> 209-296-5917 <br /><br />
-                    <FaRegBuilding className="icon" /> 2184 Freedom Lane, Suite
-                </span>
-                <span className="adress">
+                    <FaRegBuilding className="icon" /> 2184 Freedom Lane,
                     <br />Pine Grove
                     <br /> United States
                 </span>
+                {/* <span className="adress">
+                    <br />Pine Grove
+                    <br /> United States
+                </span> */}
 
             </div>
         </div>

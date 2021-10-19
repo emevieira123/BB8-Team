@@ -38,11 +38,11 @@
     margin-top: 7%;
     margin-left: 10%;
     cursor: pointer;
-}
 
-.textApresentation button:hover{
-    background-color: var(--letraLaranja);
-    color: #FDE5CA;
+    &:hover{
+        background-color: var(--letraLaranja);
+        color: #FDE5CA;
+    }
 }
 
 .imgApresentation{
@@ -73,7 +73,6 @@
 
     .imgApresentation{        
         width: 0;
-        /* border: 1px solid red; */
     }
     .imgApresentation img{
         display: none;        

@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles.css';
+import './styles.scss';
 import Ilustration from '../../assets/Ilustration.svg';
 
 const Apresentation = () => {

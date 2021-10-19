@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles.css';
+import './styles.scss';
 import Aspas from '../../assets/aspas-duplas.svg';
 
 const Comments = () => {

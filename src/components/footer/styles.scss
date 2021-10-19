@@ -52,61 +52,56 @@
     flex-direction: column;
     align-items: flex-end;
     padding: 20px;
-    /* justify-content: center; */
 }
 
 .footterAdress h1{
-    margin-right: 18%;
+    margin-right: 13%;
     margin-bottom: 6%;
     font-size: 25px;
 }
 
-.icon{
-    margin-right: 10px;
+.footterAdress span{
+    margin-right: 5%;
 }
 
-.adress{
-    margin-top: -18px;
-    margin-right: 20%;
+.icon{
+    margin-right: 3px;
+    margin-left: -23px;
 }
 
 @media(max-width: 720px){
+    .containerFotter{
+        flex-direction: column;
+    }
     .footerLogo img{
         width: 70%;
-        position: absolute;
-        margin-top: -44px;
+        margin-top: -50%;
         opacity: 0.1;
     }
-
-    .footerLogo span{
-        position: absolute;
-        margin-bottom: 0;
-        flex-direction: reverse;
-        margin-top: 47%;
-    }
     .footerLinks h1{
-        position: absolute;
         font-size: 24px;
-        margin-left: 35%;
+        text-align: center;
         
     }
     .footerLinks span{
         font-size: 20px;
-        margin-top: 30px;
-        position: absolute;
-        margin-left: 31%;
+        text-align: center;
     }
+
+    .footerLinks a{
+        margin-left: 67%;
+    }
+
     .icon{
         display: none;
     }
     .footterAdress h1{
-        font-size: 16px;
+        font-size: 22px;
+        margin-right: 68%;
+        margin-top: -57%;
     }
 
-    .adress{
-        font-size: 14px;
-        margin-top: -18px;
-        margin-right: 29%;
-        margin-bottom: 60%;
+    .footterAdress span{
+        margin-right: 57%;
     }
 }
