@@ -6,3 +6,6 @@ https://www.figma.com/file/87P2bmC0xNGOaRWqvMFeR3/BB8-Team-UI-Copy/duplicate
 
 Meu projeto será desenvolvido ultilizando o ReactJS.
 
+EM DESENVOLVIMENTO...
+
+Disponivel em https://bb-8-team.vercel.app/
