@@ -14,7 +14,7 @@
     display: flex;
     flex-direction: column;
     padding: 20px 30px;
-    color: white;
+    color: var(--bg-header);
 }
 
 .footerLinks span{
@@ -24,7 +24,7 @@
 }
 
 .footerLinks a{
-    color: white;
+    color: var(--bg-header);
     text-decoration: none;
     margin-bottom: 7px;
     font-size: 18px;
@@ -43,11 +43,11 @@
 }
 
 .footerLogo span{
-    color: white;
+    color: var(--bg-header);
 }
 
 .footterAdress{
-    color: white;
+    color: var(--bg-header);
     display: flex;
     flex-direction: column;
     align-items: flex-end;

@@ -2,8 +2,9 @@
     width: 100%;
 
     display: flex;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.1));
     border-bottom: 1px solid #E8E8E8;
+    background-color: var(--bg-header);
     align-items: center;
 }
 
@@ -41,7 +42,7 @@
 }
 
 .menu .btnMenu:hover{
-    color: #7c7c7c;
+    color: var(--color-text);
 }
 
 .btnLogin{
@@ -50,7 +51,7 @@
     height: 25px;
     border-radius: 5px;
     border: 0;
-    color: white;
+    color: var(--bg-header);
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
@@ -58,7 +59,7 @@
 
 .btnLogin:hover{
     background-color: var(--letraLaranja);
-    color: white;
+    color: var(--bg-header);
 }
 
 /* Menu para mobile */
@@ -70,7 +71,7 @@
 .mobile-menu div{
     width: 32px;
     height: 2px;
-    background-color: var(--letraCinza);
+    background-color: var(--color-text);
     margin: 8px;
 }
 
@@ -84,7 +85,7 @@
         right: 0;
         width: 30vw;
         height: 30vh;
-        background-color: white; //Altera a cor 
+        background-color: var(--bg-header); //Altera a cor 
         flex-direction: column;
         justify-content: flex-start;
         padding-top: 20px;

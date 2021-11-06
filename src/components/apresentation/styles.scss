@@ -18,7 +18,7 @@
 }
 
 .textApresentation p{
-    color: #7C7C7C;
+    color: var(--color-text);
     margin-left: 10%;
     margin-top: 2%;
     width: 80%;
@@ -32,7 +32,7 @@
     height: 60px;
     font-size: 30px;
     color: var(--letraLaranja);
-    background-color: #FDE5CA;
+    background-color: var(--bg-button);
     border: 0;
     border-radius: 5px;
     margin-top: 7%;
@@ -41,7 +41,7 @@
 
     &:hover{
         background-color: var(--letraLaranja);
-        color: #FDE5CA;
+        color: var(--bg-button);
     }
 }
 
@@ -64,7 +64,7 @@
         margin-left: 15%; 
     }
     .textApresentation p{
-        color: #7C7C7C;
+        color: var(--color-text);
         margin-left: 15%;
         width: 120%;
         font-size: 20px;

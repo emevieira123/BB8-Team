@@ -1,10 +1,20 @@
 :root{
+    --body-bg: #fafafa;
+    --bg-header: #fafafa;
+    --bg-color-coments: #FFFCF8;
+    --bg-components: #f1f1f1;
+    --color-text: #7C7C7C;
+    --letraCinza: #9C9C9C;
+    --bg-button: #FDE5CA;
     --laranja: #F97D26;
     --letraLaranja: #F8982C;
-    --letraCinza: #9C9C9C;
     --verde: #2BBC5D;
     --azul: #5398E9;
     --roxo: #BE49E8;
+}
+
+.dark-mode:root {
+    --body-bg: #2C2C2C;
 }
 
 *{
@@ -15,4 +25,5 @@
 
 body{
     font-family: 'Roboto', Arial, sans-serif;
+    background-color: var(--body-bg);
 }

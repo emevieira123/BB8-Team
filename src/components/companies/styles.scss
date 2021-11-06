@@ -1,7 +1,7 @@
 .containerCompanies {
     width: 100%;
     height: auto;
-    background-color: rgba(232, 232, 232, 0.2);
+    background-color: var(--bg-components);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,14 +14,14 @@
     font-size: 60px;
     margin-top: 1%;
     margin-bottom: 1%;
-    color: #515151;
+    color: var(--color-text);
 }
 
 .containerCompanies p{
     font-weight: 300;    
     font-size: 20px;
     line-height: 27px;
-    color: #515151;
+    color: var(--color-text);
 }
 
 @media(max-width:720px){

@@ -19,14 +19,14 @@
 
 .commentsGrid p{
     width: 85%;
-    color: #3B3B3B;
+    color: var(--color-text);
     font-weight: 300;
     font-size: 20px;
     line-height: 20px;
 }
 
 .commentsGrid span{
-    color: #3B3B3B;
+    color: var(--color-text);
     font-weight: normal;
     font-size: 25px;
     margin-left: 50%;
